@@ -1,0 +1,20 @@
+@media screen and (max-width: 991px) {
+  div.container {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(6, 400px) 100px 200px;
+    grid-template-areas:
+      "div2 div2"
+      "div1 div1"
+      "div3 div6"
+      "div4 div4"
+      "div8 div5"
+      "div7 div5"
+      "div9 div9"
+      "div10 div10";
+  }
+
+  div.container .div4 .left img {
+    width: 400px;
+    transform: translateX(-60%);
+  }
+}
