@@ -293,6 +293,8 @@ div.container .div8 .circle {
   align-items: center;
   color: white;
   border-radius: 50%;
+  gap: 10px;
+  padding: 15px;
 }
 
 div.container .div8 i {
